@@ -1,21 +1,41 @@
-@import '@nativescript/theme/core';
-@import '@nativescript/theme/default';
+@import "@nativescript/theme/core";
+@import "@nativescript/theme/default";
 
 // Place any CSS rules you want to apply on both iOS and Android here.
 // This is where the vast majority of your CSS code goes.
-
+@font-face {
+  font-family: "Monsterrat";
+  src: url(./fonts/Montserrat-VariableFont_wght.ttf) format(truetype);
+}
 // Font icon class
+*{
+  font-family: "Monsterrat", sans-serif;
+}
+
 .fab {
-  font-family: 'Font Awesome 5 Brands', 'fa-brands-400';
+  font-family: "Font Awesome 5 Brands", "fa-brands-400";
   font-weight: 400;
 }
 
 .fas {
-  font-family: 'Font Awesome 5 Free', 'fa-solid-900';
+  font-family: "Font Awesome 5 Free", "fa-solid-900";
   font-weight: 900;
 }
 
 .far {
-  font-family: 'Font Awesome 5 Free', 'fa-regular-400';
+  font-family: "Font Awesome 5 Free", "fa-regular-400";
   font-weight: 400;
+}
+Page {
+  background: #f1f1f1;
+}
+ActionBar {
+  opacity: 0;
+}
+
+Button {
+  color: #fff;
+  background: #091c3b;
+  font-weight: bold;
+  font-size: 20rem;
 }

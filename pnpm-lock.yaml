@@ -11,11 +11,17 @@ dependencies:
   '@nativescript/theme':
     specifier: ~3.0.2
     version: 3.0.2
+  nativescript-videoplayer:
+    specifier: ^5.0.1
+    version: 5.0.1
   nativescript-vue:
     specifier: ~2.9.3
     version: 2.9.3
 
 devDependencies:
+  '@nativescript/android':
+    specifier: 8.6.2
+    version: 8.6.2
   '@nativescript/webpack':
     specifier: ~5.0.18
     version: 5.0.18(nativescript-vue-template-compiler@2.9.3)(typescript@5.3.3)
@@ -264,6 +270,10 @@ packages:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.1
       '@jridgewell/sourcemap-codec': 1.4.15
+    dev: true
+
+  /@nativescript/android@8.6.2:
+    resolution: {integrity: sha512-z93vjHgy7Z8SCPBHS/fDGYnJJQIgqrd6nSJ7tWbTIxnDPwMSYUxdA4T0dnjgGrnIkvpkGfUGOAxgjS9TnIp90Q==}
     dev: true
 
   /@nativescript/core@8.6.2:
@@ -2047,6 +2057,10 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
     dev: true
+
+  /nativescript-videoplayer@5.0.1:
+    resolution: {integrity: sha512-BIvVcBbhaLnv36T3d0pKJ1Lp/T7NMCOTYx0+IPw5qQJdbbWEhuLVYrBzjAm0kT/3kxTCP+rzfCkSXdi7RfK3uw==}
+    dev: false
 
   /nativescript-vue-template-compiler@2.9.3:
     resolution: {integrity: sha512-W1KVponj6ujg67wtXRWxtMfB25uomkfLJja4BzLHi4qk7q4cIJK7HR2RHwFiQfxITPgnMq3kZKCSq/noY+crfg==}
